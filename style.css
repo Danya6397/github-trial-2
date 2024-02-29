@@ -1,9 +1,25 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body {
+    background-image: url(./Samad\ -\ Elements\ -\ Ripples\,\ Blues.jpeg);
+    background-repeat: none;
+    position: relative;
+    background-repeat: none;
+    background-size: cover;
+    
+}
+
+img {
+    width: 100%;
 }
 
 .hero {
-    background-image: url(./_you!_\ _no\,\ you!_.jpg);
+    background-image: url(./download.jpeg);
+    border-radius: 10px;
+    
 
     background-position: center;
     background-repeat: no-repeat;
@@ -15,10 +31,58 @@
 
 .hero-text {
     text-align: center;
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 110px;
-    color: white;
-    outline: 3px black;
+    color: rgb(159, 93, 195);
     font-size: 2rem;
+}
+
+.two-row-column {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+table,
+td,
+tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(159, 93, 195);
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+.link {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(159, 93, 195);
+}
+
+.trial {
+    padding-top: 1000px;
 }
